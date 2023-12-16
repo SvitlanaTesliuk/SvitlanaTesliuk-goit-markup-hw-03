@@ -77,8 +77,7 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 .list-item:hover {
   color: #404bbf;
@@ -151,15 +150,15 @@ h2 {
 
 /* section1 */
 .container-title {
-  display: flex;
-  flex-shrink: 0;
-  align-items: center;
+  display: block;
+  text-align: center;
 }
 .section-list {
   background: #2e2f42;
   width: 1440px;
   height: 600px;
-  padding: 188px 0;
+  padding: 188px  0 292px 0;
+ 
 }
 .title-main {
   color: #fff;
@@ -169,11 +168,13 @@ h2 {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  
+ 
+ 
 }
 
 .button {
+  display: block;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -183,10 +184,13 @@ h2 {
   color: #ffffff;
   cursor: pointer;
   padding: 16px 32px;
-  border: 4px;
+  border: none;
   gap: 10px;
   min-width: 169px;
   border-radius: 4px;
+  margin: ;
+  align-items: center;
+  
 }
 .button:hover {
   background-color: #404bbf;
@@ -197,18 +201,21 @@ button:focus {
 
 /* section2 */
 .section-advant {
-  padding: 120px 0;
+  padding: 120px 156px;
   flex-shrink: 0;
-  margin: 0 156px;
-}
+ }
 
-.visually-hidden h3 {
+h3 {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  
+}
+.title-advant-hiden {
+  visibility: hidden;
 }
 
 .title-advant {
@@ -250,7 +257,7 @@ button:focus {
   padding-bottom: 120px;
   padding: 120px 0;
 }
-.item-our-team {
+.ul-our-team {
   display: flex;
   gap: 24px;
 }
@@ -276,6 +283,9 @@ button:focus {
   gap: 32px;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+.name-team{
+ padding: 32px 0;
 }
 .container-our-team {
   padding: 32px 0;
@@ -314,6 +324,7 @@ button:focus {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .item-portfol {
   display: flex;
