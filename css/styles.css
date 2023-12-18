@@ -176,6 +176,7 @@ h2 {
 }
 
 .button {
+  display: block;
   display: inline-flex;
 align-items: flex-start;
 gap: 10px;
@@ -338,10 +339,7 @@ h3 {
 .item-portfol {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  gap: 32px;
-}
+  }
 .title-our-portfolio-h {
   color: #2e2f42;
   font-family: Roboto;
@@ -358,8 +356,8 @@ h3 {
   color: #434455;
 }
 .list-our-portfolio {
-   width: 360px;
-  height: 420px;
+  margin-right : 24px;
+  margin-bottom: 48px;
   padding-bottom: 32px;
   flex-direction: column;
   align-items: flex-start;
