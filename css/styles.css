@@ -177,9 +177,8 @@ h2 {
 }
 
 .button {
-  display: block, inline-flex;
-  align-items: flex-start;
-gap: 10px;
+  display: block;
+  gap: 10px;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -192,8 +191,7 @@ gap: 10px;
   border: none;
   min-width: 169px;
   border-radius: 4px;
-  margin left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   
 }
 .button:hover {
